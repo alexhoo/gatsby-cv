@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "Hello, im Alexis :)",
+  siteTitle: 'Hello, im Alexis :)',
   siteDescription: `This is my personal website`,
   keyWords: ['gatsbyjs', 'react', 'react-native', 'curriculum'],
   authorName: 'Alexis Troncoso Torralbo',
@@ -53,7 +53,7 @@ module.exports = {
       location: 'El Puerto de Santa María',
       occupation: 'Senior Frontend Engineer',
       description:
-      'Daily working in React / React Native for different developments as well as being part of the arthitecture team defining procedures to achieve our daily goals'
+        'Daily working in React / React Native for different developments as well as being part of the arthitecture team defining procedures to achieve our daily goals',
     },
     {
       company: 'United Cuisines',
@@ -65,7 +65,7 @@ module.exports = {
       location: 'Jerez de la Frontera',
       occupation: 'Team Leader Fullstack Javascript developer',
       description:
-      'Working as a senior frontend developer in touch with the latest frameworks like React, Redux, Angular, NodeJS ...'
+        'Working as a senior frontend developer in touch with the latest frameworks like React, Redux, Angular, NodeJS ...',
     },
     {
       company: 'Atos',
@@ -88,8 +88,9 @@ module.exports = {
       duration: '3 years and 8 months',
       location: 'El Puerto de Santa María',
       occupation: '.Net Developer',
-      description: 'Support and development of systems and applications for Junta de Andalucía as for private companies'
-    }
+      description:
+        'Support and development of systems and applications for Junta de Andalucía as for private companies',
+    },
   ],
   education: [
     {
@@ -123,7 +124,7 @@ module.exports = {
       name: 'Dogs',
       icon: 'FaBone',
     },
-    
+
     {
       name: 'Traveling',
       icon: 'FaPlane',
@@ -131,7 +132,7 @@ module.exports = {
     {
       name: 'Movies & Series',
       icon: 'FaTv',
-    }
+    },
   ],
   siteUrl: 'https://alexistroncoso.es',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -141,7 +142,6 @@ module.exports = {
   theme_color: '#1f8276',
   display: 'minimal-ui',
   icon: 'src/favicon.jpg',
-  resume: '/resume_alvaro_jimenez.pdf',
   headerLinks: [
     {
       label: 'About',

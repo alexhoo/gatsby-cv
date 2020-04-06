@@ -42,38 +42,38 @@ Template changed to include navigation bar and some extra sections and data
 
     Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-1. **Generate production build**
+1.  **Generate production build**
 
-  That command will generate a production build on _public_ folder
-  ```sh
-    yarn build
-  ```
+That command will generate a production build on _public_ folder
+
+```sh
+   yarn build
+```
 
 ## Configuration
 
-Update the configuration file with your data. The configuration file is in ```data/siteConfig.js```
+Update the configuration file with your data. The configuration file is in `data/siteConfig.js`
 
-:warning: NOTE: Please change googleAnalyticsId to your ID.  See https://analytics.google.com for details.
+:warning: NOTE: Please change googleAnalyticsId to your ID. See https://analytics.google.com for details.
 
 > **Skills** is a set of your personal skills and their respective levels ranging from > 0 to 100.
 > **jobs** is a set of your work experiences
 
 ```js
 module.exports = {
-  siteTitle: "Hi! I'm Alvaro!",
+  siteTitle: 'Hello, im Alexis :)',
   siteDescription: `This is my personal website`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Alvaro Jimenez',
-  twitterUsername: 'ajimenezdev',
-  githubUsername: 'ajimenezdev',
+  keyWords: ['gatsbyjs', 'react', 'react-native', 'curriculum'],
+  authorName: 'Alexis Troncoso Torralbo',
+  githubUsername: 'alexhoo',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `I'm a full-stack JS developer, currently focused in React/React Native development and blockchain solutions.<br/><br/>
-  I worked in multiple stacks (React, AngularJs, .Net, Java, Android...), environments and types of companies (Startup, medium size and big corporate).<br/><br/>
-  I currently work remotely as a frontend developer and mainly working with <strong>Javascript, React/ReactNative, NodeJS and Blockchain.</strong>`,
+  authorDescription: `I'm a JS FrontEnd engineer, currently focused in React/React Native development.<br/><br/>
+  I worked in multiple stacks (React, AngularJs, .Net, Node ...), environments and types of companies (Startup, medium size and big corporate).<br/><br/>
+  I'm currently working as a part of an architecture team mainly for React/ReactNative solutions.</strong>`,
   skills: [
     {
       name: 'HTML',
-      level: 90,
+      level: 85,
     },
     {
       name: 'CSS',
@@ -93,57 +93,74 @@ module.exports = {
     },
     {
       name: 'NodeJs',
-      level: 40,
+      level: 60,
     },
     {
       name: 'Git',
-      level: 75,
+      level: 70,
     },
     {
-      name: 'Bitcoin',
-      level: 30,
-    },
-    {
-      name: 'Ethereum & smartcontract',
+      name: 'Functional Programming',
       level: 30,
     },
   ],
   jobs: [
     {
-      company: 'Lifelabs.io',
+      company: 'Opinno',
       begin: {
-        month: 'may',
-        year: '2018',
-      },
-      duration: null,
-      location: 'UK - Remote',
-      occupation: 'Lead Frontend Developer',
-      description:
-        'I joined the company as one of the main developers, leading the frontend and mobile app development and helping with the architecture and coordination of the backend and blokchain teams.',
-    },
-    /* ... */
-  ],
-  publications: [
-    {
-      title: 'React Native intermediate level',
-      company_medium: 'OpenWebinars',
-      date: {
-        month: 'jun',
+        month: 'aug',
         year: '2019',
       },
-      link: 'https://openwebinars.net/cursos/react-native-intermedio/',
+      duration: '9 months',
+      location: 'El Puerto de Santa María',
+      occupation: 'Senior Frontend Engineer',
       description:
-        'Online training recorded for spanish e-learning platform. The training is for developers who know a little bit of ReactNative and wants to learn more about the platform',
+        'Daily working in React / React Native for different developments as well as being part of the arthitecture team defining procedures to achieve our daily goals',
     },
-    /* ... */
+    {
+      company: 'United Cuisines',
+      begin: {
+        month: 'apr',
+        year: '2015',
+      },
+      duration: '4 years and 5 months',
+      location: 'Jerez de la Frontera',
+      occupation: 'Team Leader Fullstack Javascript developer',
+      description:
+        'Working as a senior frontend developer in touch with the latest frameworks like React, Redux, Angular, NodeJS ...',
+    },
+    {
+      company: 'Atos',
+      begin: {
+        month: 'feb',
+        year: '2014',
+      },
+      duration: '1 years and 2 months',
+      location: 'Seville',
+      occupation: 'Senior Programmer',
+      description:
+        'Dealing with Vivissimo search/crawler engine tool from IBM to support Airbus developments.',
+    },
+    {
+      company: 'Sadiel',
+      begin: {
+        month: 'mar',
+        year: '2009',
+      },
+      duration: '3 years and 8 months',
+      location: 'El Puerto de Santa María',
+      occupation: '.Net Developer',
+      description:
+        'Support and development of systems and applications for Junta de Andalucía as for private companies',
+    },
   ],
   education: [
     {
-      school: 'University of Balearic Islands',
-      degree: 'Bachelor degree',
+      school: 'University of Cádiz',
+      degree: 'Technical Engineer in Management Computing.',
       field: 'Software Engineering',
-      startYear: 2006,
-      endYear: 2011,
+      startYear: 2002,
+      endYear: 2009,
     },
   ],
   languages: [
@@ -157,35 +174,37 @@ module.exports = {
       level: 'Fluid Written & Spoken',
       code: 'GB',
     },
-    /* ... */
   ],
   social: {
-    twitter: 'https://twitter.com/ajimenezdev/',
-    linkedin: 'https://www.linkedin.com/in/alvarojimenezmartin/',
-    github: 'https://github.com/ajimenezdev/',
-    email: 'ajmjimens@gmail.com',
+    twitter: 'https://twitter.com/alexhooz',
+    linkedin: 'https://www.linkedin.com/in/alexis-troncoso-torralbo/',
+    github: 'https://github.com/alexhoo/',
+    email: 'alexis.troncoso.torralbo@gmail.com',
   },
   hobbies: [
     {
-      name: 'Football',
-      icon: 'FaFutbol',
+      name: 'Dogs',
+      icon: 'FaBone',
     },
-    /* ... */
+
+    {
+      name: 'Traveling',
+      icon: 'FaPlane',
+    },
+    {
+      name: 'Movies & Series',
+      icon: 'FaTv',
+    },
   ],
-  siteUrl: 'https://alvarojimenezmartin.com',
+  siteUrl: 'https://alexistroncoso.es',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: 'UA-4492763-3',
   background_color: '#ffffff',
-  theme_color: '#25303B',
+  theme_color: '#1f8276',
   display: 'minimal-ui',
-  icon: 'src/assets/favicon.jpg',
-  resume: '/resume_alvaro_jimenez.pdf',
+  icon: 'src/favicon.jpg',
   headerLinks: [
-    // {
-    //   label: 'Alvaro Jimenez Martin',
-    //   url: '/',
-    // },
     {
       label: 'About',
       url: 'about',
@@ -199,17 +218,17 @@ module.exports = {
       url: 'experience',
     },
     {
-      label: 'Publications',
-      url: 'publications',
-    },
-    {
       label: 'Education',
       url: 'education',
     },
     {
       label: 'Hobbies',
       url: 'hobbies',
-    }
+    },
+    // {
+    //   label: 'Contact',
+    //   url: 'contact',
+    // },
   ],
 }
 ```
