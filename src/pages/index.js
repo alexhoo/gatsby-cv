@@ -19,7 +19,6 @@ import {
   Skills,
   Timeline,
   Education,
-  Publications,
   Hobbies,
   // Contact,
 } from '../components'
@@ -97,7 +96,7 @@ class Home extends React.Component {
                         <FaEnvelope className="social-icon" size="32" />
                       </a>
                     )}
-                    {siteConfig.resume && (
+                    {/* {siteConfig.resume && (
                       <a
                         className="social-link resume"
                         href={`${siteConfig.resume}`}
@@ -106,7 +105,7 @@ class Home extends React.Component {
                       >
                         <FaFileAlt className="social-icon" size="28" />
                       </a>
-                    )}
+                    )} */}
                   </div>
                 </Col>
               </Row>
@@ -123,12 +122,9 @@ class Home extends React.Component {
               {/* <Separator />
             <Repositories /> */}
               <Separator />
-              <Publications />
-              <Separator />
               <Education />
               <Separator />
               <Hobbies />
-              <Separator />
               {/* <Contact /> */}
             </Container>
           </Wrapper>
@@ -152,7 +148,7 @@ export default styled(Home)`
   .avatar__image {
     box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
     max-width: 200px;
-    border-radius: 100px;
+    border-radius: 150px;
     margin: 0 auto 24px;
   }
 

@@ -19,5 +19,7 @@ export default styled(SectionTitle)`
   .header__title {
     margin-bottom: 0;
     margin-left: 10px;
+    
+    font-family: 'Baloo Thambi 2', cursive;
   }
 `

@@ -31,6 +31,7 @@ const Education = ({ className }) => {
               {idx < siteConfig.education.length - 1 && <hr />}
             </React.Fragment>
           ))}
+          <br/>
         {siteConfig.languages && (
           <React.Fragment>
             <h3>Languages</h3>
@@ -63,6 +64,7 @@ const Education = ({ className }) => {
 
 export default styled(Education)`
   position: relative;
+  ul { li { list-style: none;}
   .education__content {
     margin-bottom: 40px;
   }
@@ -98,4 +100,5 @@ export default styled(Education)`
   .education__lang__text--noflag {
     margin-left: 24px;
   }
+}
 `
