@@ -137,7 +137,7 @@ module.exports = {
   siteUrl: 'https://alexistroncoso.es',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-4492763-3',
+  googleAnalyticsId: 'UA-162912904-1',
   background_color: '#ffffff',
   theme_color: '#1f8276',
   display: 'minimal-ui',
