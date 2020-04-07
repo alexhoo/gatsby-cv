@@ -135,13 +135,13 @@ module.exports = {
     },
   ],
   siteUrl: 'https://alexistroncoso.es',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-162912904-1',
   background_color: '#ffffff',
   theme_color: '#1f8276',
   display: 'minimal-ui',
-  icon: 'src/favicon.jpg',
+  icon: 'src/favicon.png',
   headerLinks: [
     {
       label: 'About',
@@ -167,5 +167,5 @@ module.exports = {
     //   label: 'Contact',
     //   url: 'contact',
     // },
-  ],
+  ]
 }

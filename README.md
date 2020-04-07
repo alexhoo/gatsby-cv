@@ -203,7 +203,7 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#1f8276',
   display: 'minimal-ui',
-  icon: 'src/favicon.jpg',
+  icon: 'src/favicon.png',
   headerLinks: [
     {
       label: 'About',

@@ -31,7 +31,7 @@ const Education = ({ className }) => {
               {idx < siteConfig.education.length - 1 && <hr />}
             </React.Fragment>
           ))}
-          <br/>
+        <br />
         {siteConfig.languages && (
           <React.Fragment>
             <h3>Languages</h3>
@@ -64,41 +64,44 @@ const Education = ({ className }) => {
 
 export default styled(Education)`
   position: relative;
-  ul { li { list-style: none;}
-  .education__content {
-    margin-bottom: 40px;
+  ul {
+    li {
+      list-style: none;
+    }
+    .education__content {
+      margin-bottom: 40px;
+    }
+    .education__edu {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .education__edu-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .education__edu-school {
+      font-weight: bold;
+    }
+    .education__edu-date {
+      color: #bbb;
+      font-size: 10px;
+    }
+    .education__edu-studies {
+      font-size: 16px;
+      font-style: italic;
+    }
+    .education__lang {
+      display: flex;
+      align-items: center;
+    }
+    .education__lang__flag {
+      margin: 0;
+      margin-right: 6px;
+    }
+    .education__lang__text--noflag {
+      margin-left: 24px;
+    }
   }
-  .education__edu {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-  .education__edu-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .education__edu-school {
-    font-weight: bold;
-  }
-  .education__edu-date {
-    color: #bbb;
-    font-size: 10px;
-  }
-  .education__edu-studies {
-    font-size: 16px;
-    font-style: italic;
-  }
-  .education__lang {
-    display: flex;
-    align-items: center;
-  }
-  .education__lang__flag {
-    margin: 0;
-    margin-right: 6px;
-  }
-  .education__lang__text--noflag {
-    margin-left: 24px;
-  }
-}
 `

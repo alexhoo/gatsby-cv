@@ -33,7 +33,7 @@ const Contact = ({ className }) => {
             <select
               value={category}
               name="category"
-              onChange={event => setCategory(event.target.value)}
+              onBlur={event => setCategory(event.target.value)}
             >
               <option value="" disabled>
                 Select category

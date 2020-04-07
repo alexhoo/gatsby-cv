@@ -6,7 +6,6 @@ import {
   FaLinkedin,
   FaEnvelope,
   FaTwitter,
-  FaFileAlt,
 } from 'react-icons/fa'
 import siteConfig from '../../data/siteConfig'
 
