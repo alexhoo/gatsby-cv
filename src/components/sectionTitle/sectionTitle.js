@@ -19,7 +19,8 @@ export default styled(SectionTitle)`
   .header__title {
     margin-bottom: 0;
     margin-left: 10px;
+    font-weight: 800;
 
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: 'mukta malar', cursive;
   }
 `

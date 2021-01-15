@@ -1,11 +1,11 @@
-const config = require("./data/siteConfig");
+const config = require('./data/siteConfig')
 
 module.exports = {
   siteMetadata: {
     title: config.siteTitle,
     description: config.siteDescription,
     author: config.authorName,
-    ...config
+    ...config,
   },
   pathPrefix: config.pathPrefix,
   plugins: [
@@ -32,18 +32,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family:`Baloo Thambi 2`,
-            variants: [`300`, `400`]
-          },
-        ],
+        fonts: [`mukta malar\:300,400,700,800`],
+        display: 'swap',
       },
-    }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    },
   ],
 }

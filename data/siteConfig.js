@@ -23,7 +23,7 @@ module.exports = {
     },
     {
       name: 'React',
-      level: 85,
+      level: 90,
     },
     {
       name: 'ReactNative',
@@ -34,15 +34,32 @@ module.exports = {
       level: 60,
     },
     {
+      name: 'GraphQL',
+      level: 60,
+    },
+    {
       name: 'Git',
       level: 70,
     },
     {
       name: 'Functional Programming',
-      level: 30,
+      level: 50,
     },
   ],
   jobs: [
+    {
+      company: 'Séntisis',
+      begin: {
+        month: 'sept',
+        year: '2020',
+      },
+      duration: 'present',
+      location: 'remote',
+      ocupation: 'Senior Frontend Engineer',
+      description:
+        'Working in Séntisis products by creating and improving interfaces, ux, etc all this by using latest tech',
+    },
+
     {
       company: 'Opinno',
       begin: {
@@ -167,5 +184,5 @@ module.exports = {
     //   label: 'Contact',
     //   url: 'contact',
     // },
-  ]
+  ],
 }
