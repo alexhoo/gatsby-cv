@@ -5,9 +5,9 @@ module.exports = {
   authorName: 'Alexis Troncoso Torralbo',
   githubUsername: 'alexhoo',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `I'm a JS FrontEnd engineer, currently focused in React/React Native development.<br/><br/>
-  I worked in multiple stacks (React, AngularJs, .Net, Node ...), environments and types of companies (Startup, medium size and big corporate).<br/><br/>
-  I'm currently working as a part of an architecture team mainly for React/ReactNative solutions.</strong>`,
+  authorDescription: `I'm a JS FrontEnd engineer, currently focused in React development.<br/><br/>
+  I worked in multiple stacks (React, Vue, AngularJs, .Net, Node ...), environments and types of companies (Startup, medium size and big corporate).<br/><br/>
+  I'm currently working as a part of a small engineers team focused on the frontend with React / Graphql based applications.</strong>`,
   skills: [
     {
       name: 'HTML',
@@ -23,7 +23,7 @@ module.exports = {
     },
     {
       name: 'React',
-      level: 90,
+      level: 85,
     },
     {
       name: 'ReactNative',
@@ -34,16 +34,12 @@ module.exports = {
       level: 60,
     },
     {
-      name: 'GraphQL',
-      level: 60,
-    },
-    {
       name: 'Git',
       level: 70,
     },
     {
       name: 'Functional Programming',
-      level: 50,
+      level: 30,
     },
   ],
   jobs: [
@@ -55,9 +51,10 @@ module.exports = {
       },
       duration: 'present',
       location: 'remote',
-      ocupation: 'Senior Frontend Engineer',
+      occupation: 'Senior Frontend Engineer',
       description:
-        'Working in Séntisis products by creating and improving interfaces, ux, etc all this by using latest tech',
+        'Working in Séntisis, a NLP company with several products in which i work improving the frontend experience using React among many other tools from its tech stack'
+
     },
 
     {
