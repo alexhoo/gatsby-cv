@@ -53,6 +53,24 @@ const HeaderLink = styled(Link)`
     padding: 14px;
   }
 `
+const SimpleLink = styled.a`
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border: 0;
+  margin: 0;
+  margin-right: 0.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 42px;
+  z-index: 10;
+  cursor: pointer;
+  @media (max-width: 900px) {
+    padding: 14px;
+  }
+`
 
 const Header = ({ className }) => {
   const [toggled, setToggled] = useState(false)
@@ -69,17 +87,23 @@ const Header = ({ className }) => {
             toggled ? 'header__LinkGroup-toggled' : ''
           }`}
         >
-          {headerLinks.map((headerLink, i) => (
-            <HeaderLink
-              smooth={true}
-              to={headerLink.url}
-              offset={-70}
-              key={`header-link-${i}`}
-              onClick={() => setToggled(false)}
-            >
-              {headerLink.label}
-            </HeaderLink>
-          ))}
+          {headerLinks.map((headerLink, i) => {
+            return headerLink.type === 'file' ? (
+              <SimpleLink target="_blank" href={headerLink.url}>
+                {headerLink.label}
+              </SimpleLink>
+            ) : (
+              <HeaderLink
+                smooth={true}
+                to={headerLink.url}
+                offset={-70}
+                key={`header-link-${i}`}
+                onClick={() => setToggled(false)}
+              >
+                {headerLink.label}
+              </HeaderLink>
+            )
+          })}
         </HeaderLinkGroup>
         <div className="header__smallScreen">
           <FaBars

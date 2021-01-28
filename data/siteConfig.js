@@ -53,8 +53,7 @@ module.exports = {
       location: 'remote',
       occupation: 'Senior Frontend Engineer',
       description:
-        'Working in Séntisis, a NLP company with several products in which i work improving the frontend experience using React among many other tools from its tech stack'
-
+        'Working in Séntisis, a NLP company with several products in which i work improving the frontend experience using React among many other tools from its tech stack',
     },
 
     {
@@ -177,9 +176,10 @@ module.exports = {
       label: 'Hobbies',
       url: 'hobbies',
     },
-    // {
-    //   label: 'Contact',
-    //   url: 'contact',
-    // },
+    {
+      label: 'Resume PDF',
+      url: 'CV_AlexisTroncoso.pdf',
+      type: 'file',
+    },
   ],
 }
