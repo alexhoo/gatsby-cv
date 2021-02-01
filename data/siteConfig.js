@@ -177,8 +177,9 @@ module.exports = {
       url: 'hobbies',
     },
     {
-      label: 'Resume PDF',
-      url: 'CV_AlexisTroncoso.pdf',
+      label: 'Download CV',
+      url:
+        'https://drive.google.com/file/d/1tW1UQS6yc4vvLjQEqzi9SSw4yBBg3ALy/view?usp=sharing',
       type: 'file',
     },
   ],
