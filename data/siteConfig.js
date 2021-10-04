@@ -53,7 +53,7 @@ module.exports = {
       location: 'remote',
       occupation: 'Senior Frontend Engineer',
       description:
-        'Working in Séntisis, a NLP company with several products in which i work improving the frontend experience using React among many other tools from its tech stack',
+      'Working in Séntisis, a NLP company with several products in which i work improving the frontend experience using React among many other tools from its tech stack.',
     },
 
     {
@@ -66,7 +66,7 @@ module.exports = {
       location: 'El Puerto de Santa María',
       occupation: 'Senior Frontend Engineer',
       description:
-        'Daily working in React / React Native for different developments as well as being part of the arthitecture team defining procedures to achieve our daily goals',
+      'Daily working in React / React Native for different developments as well as being part of the architecture team defining procedures to achieve our daily goals.',
     },
     {
       company: 'United Cuisines',
@@ -78,7 +78,7 @@ module.exports = {
       location: 'Jerez de la Frontera',
       occupation: 'Team Leader Fullstack Javascript developer',
       description:
-        'Working as a senior frontend developer in touch with the latest frameworks like React, Redux, Angular, NodeJS ...',
+      'Working as a senior frontend developer in touch with the latest frameworks like React, Redux, Angular, NodeJS ...',
     },
     {
       company: 'Atos',
@@ -90,7 +90,7 @@ module.exports = {
       location: 'Seville',
       occupation: 'Senior Programmer',
       description:
-        'Dealing with Vivissimo search/crawler engine tool from IBM to support Airbus developments.',
+      'Dealing with Vivissimo search/crawler engine tool from IBM to support Airbus developments.',
     },
     {
       company: 'Sadiel',
@@ -102,7 +102,7 @@ module.exports = {
       location: 'El Puerto de Santa María',
       occupation: '.Net Developer',
       description:
-        'Support and development of systems and applications for Junta de Andalucía as for private companies',
+      'Support and development of systems and applications for Junta de Andalucía as for private companies.',
     },
   ],
   education: [
@@ -122,7 +122,7 @@ module.exports = {
     },
     {
       language: 'English',
-      level: 'Fluid Written & Spoken',
+      level: 'Fluid written & spoken',
       code: 'GB',
     },
   ],
@@ -179,7 +179,7 @@ module.exports = {
     {
       label: 'Download CV',
       url:
-        'https://drive.google.com/file/d/1tW1UQS6yc4vvLjQEqzi9SSw4yBBg3ALy/view?usp=sharing',
+'https://drive.google.com/file/d/1iRJtmE4NTSDI3EFCqZCvXFEv23bjI4DX/view?usp=sharing',
       type: 'file',
     },
   ],
