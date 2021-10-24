@@ -5,9 +5,9 @@ module.exports = {
   authorName: 'Alexis Troncoso Torralbo',
   githubUsername: 'alexhoo',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `I'm a JS FrontEnd engineer, currently focused in React development.<br/><br/>
-  I worked in multiple stacks (React, Vue, AngularJs, .Net, Node ...), environments and types of companies (Startup, medium size and big corporate).<br/><br/>
-  I'm currently working as a part of a small engineers team focused on the frontend with React / Graphql based applications.</strong>`,
+  authorDescription: `I am a javascript front-end engineer passionate of React, functional programming and sushi lover :D.<br/><br/>
+  I have worked in multiple stacks (React, Vue, AngularJs, .Net, Node ...), environments and types of companies (Startup, medium size and big corporate).<br/><br/>
+  I'm currently working as a part of a small engineers team where we all contribute to improve an amazing product.<br/>`,
   skills: [
     {
       name: 'HTML',
